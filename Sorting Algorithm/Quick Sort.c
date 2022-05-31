@@ -60,4 +60,4 @@ int main()
 // ----Complexity----
 // O(n log(n)) - Best, average case. --> when the pivot element is always the middle element or near to the middle
 // O(n^2) - Worst case. --> when the pivot element picked is either the greatest or the smallest element.
-// Space Complexity  - O(log(n).
+// Space Complexity  - O(log(n)) - Avg case
