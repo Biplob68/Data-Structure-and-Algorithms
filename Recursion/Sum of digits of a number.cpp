@@ -4,9 +4,8 @@ using namespace std;
 
 int sum_digit(int n){
 
-   if(n<10) return n;
-
-
+    if(n<10) return n;
+   
     return (n%10) + sum_digit(n/10);
 
 }
